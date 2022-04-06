@@ -34,7 +34,7 @@ header {
 /* -----MAIN----- */
 
 main {
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(13, 13, 26);
     display: flex;
 }
 
@@ -86,25 +86,35 @@ main {
     padding-right: 10px;
 }
 
-.content, .content ul {
-    display: flex;
-    flex-wrap: wrap;
+.content{
+    color: white;
     width: calc(100% - 200px);
+    margin-top: 50px;
+}
+
+.content ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 20px;
+    padding-top: 20px;
 }
 
 .row {
     display: flex;
 }
 
+.row .col img {
+    max-width: 100%;
+    padding: 20px;
+}
+
 .col {
     width: calc(100% / 6);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
-
-
-
 
 /* -----IMG----- */
 
@@ -112,10 +122,9 @@ main {
     width: 70%;
 }
 
-
 /* -----FOOTER----- */
 
 footer {
     height: 60px;
-    background-color: grey;
+    background-color: rgb(60, 60, 60);
 }
