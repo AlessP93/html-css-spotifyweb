@@ -3,3 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -----HEADER------ */
+
+header {
+    height: 50px;
+    width: calc(100% - 200px);
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    text-align: right;
+}
+
+.btn-upgrade {
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+/* -----MAIN----- */
+
+main {
+    background-color: rgb(69, 69, 69);
+    display: flex;
+}
+
+.aside {
+    height: calc( 100vh - 60px);
+    width: 200px;
+    background-color: black;
+    position: relative;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.main-nav li, .main-nav-middle li{
+    color: white;
+    padding-top: 15px;
+    list-style: none;
+}
+
+.main-nav-middle, .main-nav-bottom {
+    color: white;
+    padding-top: 25px;
+}
+
+.main-nav-bottom {
+    position: absolute;
+    bottom: 10px;
+}
+
+.hr-main {
+    width: 240%;
+}
+
+/* -----IMG----- */
+
+.logo {
+    width: 70%;
+}
+
+/* -----FOOTER----- */
+
+footer {
+    height: 60px;
+    background-color: grey;
+}
