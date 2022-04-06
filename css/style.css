@@ -89,6 +89,7 @@ main {
 .content, .content ul {
     display: flex;
     flex-wrap: wrap;
+    width: calc(100% - 200px);
 }
 
 .row {
