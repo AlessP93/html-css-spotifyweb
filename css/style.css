@@ -13,7 +13,6 @@ body {
 header {
     height: 50px;
     width: calc(100% - 200px);
-    display: flex;
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
@@ -47,14 +46,19 @@ main {
     font-size: 12px;
 }
 
+.main-nav, .main-nav-middle, .main-nav-bottom{
+    margin: 10px 0;
+    color: lightgray;
+}
+
 .main-nav li, .main-nav-middle li{
-    color: white;
+    color: lightgray);
     padding-top: 15px;
     list-style: none;
 }
 
 .main-nav-middle, .main-nav-bottom {
-    color: white;
+    color: lightgray;
     padding-top: 25px;
 }
 
@@ -64,14 +68,48 @@ main {
 }
 
 .hr-main {
-    width: 240%;
+    width: 200%;
 }
+
+.main-nav i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.main-nav-middle i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.main-nav-bottom i{
+    padding-right: 10px;
+}
+
+.content, .content ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: calc(100% / 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 /* -----IMG----- */
 
 .logo {
     width: 70%;
 }
+
 
 /* -----FOOTER----- */
 
