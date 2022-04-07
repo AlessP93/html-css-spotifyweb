@@ -12,15 +12,16 @@ body {
 /* -----HEADER------ */
 
 header {
-    height: 50px;
+    height: 60px;
     width: calc(100% - 200px);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     right: 0;
     z-index: 1;
-    text-align: right;
-    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .btn-upgrade {
@@ -35,6 +36,7 @@ header {
 /* -----MAIN----- */
 
 main {
+    height: calc(100vh - 60px);
     background-color: rgb(13, 13, 26);
     display: flex;
 }
@@ -48,7 +50,6 @@ main {
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .main-nav, .main-nav-middle, .main-nav-bottom{
@@ -92,7 +93,7 @@ main {
     color: white;
     width: calc(100% - 200px);
     margin-top: 50px;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .content ul{
@@ -118,7 +119,6 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
 }
 
 .plus {
@@ -136,11 +136,25 @@ a {
     color: inherit;
 }
 
-
 /* -----IMG----- */
 
 .logo {
     width: 70%;
+}
+
+.imgbord{
+    border-radius: 50%;
+}
+
+.img-footer{
+    width: 10%;
+    margin-top: 8px;
+}
+
+.mini-img{
+    display: flex;
+    align-items: center;
+    
 }
 
 /* -----FOOTER----- */
@@ -148,4 +162,23 @@ a {
 footer {
     height: 60px;
     background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+    padding: 0 10px;
+    
 }
+
+.footer.left, .footer.right{
+    width: 25%;
+}
+
+.footer.middle{
+    width: 50%;
+    justify-content: flex-start;
+}
+.play{
+    font-size: 20px;
+    padding: 0 50px;
+}
+
