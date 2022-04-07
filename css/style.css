@@ -92,7 +92,7 @@ main {
     color: white;
     width: calc(100% - 200px);
     margin-top: 50px;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .content ul{
