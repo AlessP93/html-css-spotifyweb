@@ -46,7 +46,7 @@ main {
     width: 200px;
     background-color: black;
     position: relative;
-    padding: 10px;
+    padding: 20px;
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -140,6 +140,13 @@ a {
     color: white;
 }
 
+.bord-green {
+    border-bottom: 3px solid greenyellow;
+}
+.bord-vert {
+    border-left: 3px solid greenyellow;
+}
+
 /* -----IMG----- */
 
 .logo {
@@ -152,7 +159,6 @@ a {
 
 .img-footer{
     width: 10%;
-    
 }
 
 .mini-img{
@@ -187,7 +193,6 @@ footer {
     align-items: center;
 }
 
-
 .footer-middle{
     width: 50%;
     text-align: center;
@@ -210,7 +215,6 @@ footer {
 
 .icon-space {
     padding: 5px 10px;
-    
 }
 
 .bar{
@@ -220,7 +224,7 @@ footer {
     margin-left: 25%;
 }
 
-.bar-right {
+.bar-2 {
     border-bottom: 5px solid rgb(79, 79, 79);
     margin-right: 20px;
 }
