@@ -24,6 +24,7 @@
                 <!-- aside alta logo -->
                 <div class="logo">
                     <img src="css/img/logo.svg" alt="logo">
+                    <img class="logo-small" src="css/img/logo-small.svg" alt="">
                 </div>
                 <div class="main-nav">
                     <nav>
@@ -42,17 +43,17 @@
                         <a href="#"><i class="fa-solid fa-square-plus"></i>
                         <h4><a href="#">Crea Playlist</h4></a>
                     </div>  
-                    <nav>
-                        <ul>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                        </ul>
-                    </nav>
                 </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                    </ul>
+                </nav>
                 <!-- /aside centrale -->
                 <!-- aside bassa -->
                 <div class="main-nav-bottom"> 
@@ -65,14 +66,14 @@
             <!-- section pagina -->
             <section class="content">
                 <!-- titoli in evidenza -->
-                <nav>
+                <nav >
                     <ul>
                         <li class="bord-green"><a href="#">IN EVIDENZA</a></li>
-                        <li><a href="#">IN EVIDENZA</a></li>
-                        <li><a href="#">IN EVIDENZA</a></li>
-                        <li><a href="#">IN EVIDENZA</a></li>
-                        <li><a href="#">IN EVIDENZA</a></li>
-                        <li><a href="#">IN EVIDENZA</a></li>
+                        <li><a href="#">PODCAST</a></li>
+                        <li><a href="#">CLASSIFICHE</a></li>
+                        <li><a href="#">GENERI E MOOD</a></li>
+                        <li><a href="#">NUOVE USCITE</a></li>
+                        <li><a href="#">SCOPRI</a></li>
                     </ul>
                 </nav>
                 <!-- /titoli in evidenza -->
@@ -86,7 +87,7 @@
                     <div class="col">
                         <div class="img">
                             <img src="css/img/metal_lifting.jpg" alt="">
-                            <div class="overlay"></div>
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Heavy Metal</h4>
                         <small>Subtitle</small>
@@ -94,13 +95,15 @@
                     <div class="col">
                         <div class="img">
                             <img src="css/img/stranger.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Stranger Thinghs, Vol. 1 (a Netflix Original Series Soundtrack</h4>
-                        <small>Kyle dixon</small>
+                        <small>Kyle dixon & Michael Stein</small>
                     </div>
                     <div class="col">
                         <div class="img">
                             <img src="css/img/aquietplace.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Heavy Metal</h4>
                         <small>Subtitle</small>
@@ -108,6 +111,7 @@
                     <div class="col">
                         <div class="img">
                             <img src="css/img/split.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Heavy Metal</h4>
                         <small>Subtitle</small>
@@ -115,6 +119,7 @@
                     <div class="col">
                         <div class="img">
                             <img src="css/img/cure.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Heavy Metal</h4>
                         <small>Subtitle</small>
@@ -122,6 +127,7 @@
                     <div class="col">
                         <div class="img">
                             <img src="css/img/sinister.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Heavy Metal</h4>
                         <small>Subtitle</small>
@@ -137,12 +143,14 @@
                     <div class="col">
                         <div class="img">
                             <img src="css/img/radar.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Release Radar</h4>
                     </div>
                     <div class="col">
                         <div class="img">
                             <img src="css/img/mixdaily.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Daily Mix 1</h4>
                     </div>
@@ -157,12 +165,14 @@
                     <div class="col">
                         <div class="img">
                             <img class="imgbord" src="css/img/youg.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Lana del Rey</h4>
                     </div>
                     <div class="col">
                         <div class="img">
                             <img class="imgbord" src="css/img/einaudi.jpeg" alt="">
+                            <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
                         </div>
                         <h4>Ludovico Einaudi</h4>
                     </div>
@@ -178,7 +188,7 @@
                     <img class="img-footer" src="css/img/sinister.jpeg" alt="logo footer">
                     <div class="text-sinister">
                         <span><strong>Sinister</strong></span><br>
-                        <span>Brano Nome</span>
+                        <span> <a href="#">Brano Nome</a></span>
                     </div>
                     <span class="heart"><a href="#"><i class="fa-regular fa-heart"></i></a></span>
                     <span class="file"><a href="#"><i class="fa-regular fa-folder"></i></a></span>
@@ -192,7 +202,9 @@
                 <span class="play"><a href="#"><i class="fa-regular fa-circle-play"></i></a></span>
                 <span class="icon-space"><a href="#"><i class="fa-solid fa-forward-step"></i></a></span>
                 <span class="icon-space"><a href="#"><i class="fa-solid fa-arrow-rotate-right"></i></a></span>
-                <div class="bar"></div>
+                <div class="bar">
+                    <div class="bar-2"></div>
+                </div>
             </div>
             <!-- /footer centro -->
             <!-- footer sinistra -->
@@ -200,7 +212,7 @@
                 <span class="icon-space"><a href="#"><i class="fa-solid fa-list"></i></a></span>
                 <span class="icon-space"><a href="#"><i class="fa-solid fa-display"></i></a></span>
                 <span class="icon-space"><a href="#"><i class="fa-solid fa-volume-high"></i></a></span>
-                <div class="bar-2"></div>
+                <div class="bar-right"></div>
             </div>
             <!-- /footer sinistra -->
         </footer>
