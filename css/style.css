@@ -101,10 +101,11 @@ main {
 }
 
 .content {
-    color: grey;
+    color: white;
     width: calc(100% - 200px);
     margin-top: 50px;
     overflow-y: auto;
+    margin-left: 20px;
 }
 
 .content ul{
@@ -114,6 +115,7 @@ main {
     column-gap: 20px;
     padding-top: 20px;
     flex-wrap: wrap;
+    color: grey;
 }
 
 .row {
@@ -123,7 +125,7 @@ main {
 }
 
 .col {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 20px);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -266,7 +268,15 @@ footer {
     background-color: grey;
     border-radius: 10px;
     width: 50%;
-    margin: auto;
+    margin-left: 100px;
+}
+
+.bar-small{
+    height: 3px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 20%;
+    margin-right: 0;
 }
 
 a:hover {
@@ -320,7 +330,7 @@ a:hover {
     .content {
         width: calc(100% - 100px);
     }
-    
+
     li {
         display: none;
     }
