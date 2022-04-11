@@ -56,6 +56,7 @@ main {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .main-nav, .main-nav-middle, .main-nav-bottom{
@@ -244,7 +245,7 @@ footer {
 }
 
 .bar{
-    width: 80%;
+    width: 60%;
     height: 4px;
     background-color: grey;
     margin: auto;
